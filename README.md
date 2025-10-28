@@ -1,4 +1,4 @@
-# 🚀 Simulador Interativo de Escalonamento de Processos
+#  Simulador Interativo de Escalonamento de Processos
 
 ![Versão](https://img.shields.io/badge/versão-1.0-blue)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
@@ -16,7 +16,7 @@ Este projeto implementa um simulador de escalonamento de processos multitarefa p
 
 O desenvolvimento foi baseado nos requisitos do **Projeto A** da disciplina de Sistemas Operacionais da **UTFPR (2025/2)**, ministrada pelo Prof. Dr. Marco Aurélio Wehrmeister, e utilizando como referência teórica o livro "Sistemas Operacionais: Conceitos e Mecanismos" do Prof. Carlos A. Maziero.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 * **Visualização Gráfica:** Gráfico de Gantt dinâmico que mostra a execução das tarefas ao longo do tempo (ticks).
 * **Controle de Simulação:** Execute a simulação tick por tick ("Próximo Passo") ou de forma contínua ("Executar Tudo").
@@ -25,7 +25,7 @@ O desenvolvimento foi baseado nos requisitos do **Projeto A** da disciplina de S
 * **Exportação:** Salve o gráfico de Gantt resultante como uma imagem `.png`.
 * **Inspeção de Dados:** Visualize os dados de entrada do arquivo carregado em uma tabela.
 
-## ⚙️ Algoritmos Implementados
+##  Algoritmos Implementados
 
 O simulador suporta os seguintes algoritmos de escalonamento:
 
@@ -33,7 +33,7 @@ O simulador suporta os seguintes algoritmos de escalonamento:
 2.  **SRTF (Shortest Remaining Time First)**: Preemptivo.
 3.  **PRIOP (Prioridade Preemptivo)**: Preemptivo (menor número = maior prioridade).
 
-## 🚀 Como Usar
+##  Como Usar
 
 ### 1. (Recomendado) Executável (.exe)
 
@@ -67,8 +67,30 @@ Se preferir rodar o projeto localmente:
     python main.py
     ```
 
-## 📄 Formato do Arquivo de Entrada (`.txt`)
+##  Formato do Arquivo de Entrada (`.txt`)
 
 O software carrega os cenários de um arquivo de texto simples. A primeira linha define o algoritmo e o quantum (não utilizado neste projeto, mas presente para futuros algoritmos como Round Robin). As linhas seguintes definem cada tarefa.
 
 **Formato:**
+
+ALGORITMO;QUANTUM id;cor;ingresso;duracao;prioridade
+
+
+**Exemplo (`exemplo_srtf.txt`):**
+SRTF;1 T1;red;0;5;2 T2;blue;2;2;1 T3;green;3;6;3 T4;orange;5;1;1
+
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Python 3**: Linguagem principal.
+* **Tkinter**: Para a construção da interface gráfica (GUI).
+* **Pillow (PIL)**: Para manipulação e exibição de imagens (ícones, logos) e para salvar o gráfico.
+* **PyInstaller**: Utilizado para empacotar o projeto em um único executável (`.exe`).
+
+## 👨‍💻 Autor
+
+* **Vinicius Wandembruck - ALUNO DE BSI NA UTFPR** - [GitHub @KureishiDev](https://github.com/KureishiDev)
+
+## ⚖️ Licença
+
+Este projeto é distribuído sob a Licença MIT. Veja o arquivo `LICENSE
