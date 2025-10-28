@@ -11,7 +11,7 @@ Este software é a implementação prática do **Projeto A** da disciplina de Si
 
 ---
 
-## 📝 Descrição
+##  Descrição
 
 Este projeto implementa um simulador de escalonamento de processos multitarefa preemptivo de tempo compartilhado. Ele permite ao usuário carregar uma lista de tarefas a partir de um arquivo de configuração, executar a simulação passo a passo ou de forma contínua, e visualizar o resultado em um gráfico de Gantt interativo.
 
