@@ -1,0 +1,4 @@
+PRIOP;10
+T-Baixa;gray;0;10;9
+T-Media;orange;2;4;5
+T-Alta;red;5;3;1

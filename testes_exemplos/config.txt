@@ -1,0 +1,10 @@
+PRIOP;10
+T-Fundo;gray;0;25;99
+T-Alfa;blue;2;8;10
+T-Beta;orange;5;10;12
+T-Urgente1;red;8;3;1
+T-Gama;purple;15;6;11
+T-Urgente2;red;20;4;2
+T-Delta;green;25;7;10
+T-Urgente3;red;35;2;1
+T-Final;black;45;5;5

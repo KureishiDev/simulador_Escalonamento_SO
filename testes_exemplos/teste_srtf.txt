@@ -1,0 +1,4 @@
+SRTF;10
+T-Larga;red;0;8;1
+T-Pequena;green;2;2;1
+T-Media;blue;3;4;1

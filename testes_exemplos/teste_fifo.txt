@@ -1,0 +1,4 @@
+FIFO;10
+T1-Longa;blue;0;5;9
+T2-Curta;red;1;2;1
+T3-Media;green;3;4;5
