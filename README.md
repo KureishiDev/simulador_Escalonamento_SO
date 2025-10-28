@@ -78,19 +78,41 @@ ALGORITMO;QUANTUM id;cor;ingresso;duracao;prioridade
 
 **Exemplo (`exemplo_srtf.txt`):**
 SRTF;1 T1;red;0;5;2 T2;blue;2;2;1 T3;green;3;6;3 T4;orange;5;1;1
+## Como Gerar o Executável (Build)
+
+Este projeto utiliza o **PyInstaller** para ser empacotado em um único arquivo `.exe`.
+
+1.  Instale as dependências de build:
+    ```bash
+    pip install pyinstaller pillow
+    ```
+2.  Navegue até a pasta raiz do projeto pelo terminal.
+3.  Execute o seguinte comando (para Windows):
+
+    ```bash
+    pyinstaller --onefile --windowed --icon="icone.ico" --add-data "github-mark-white.png;." --add-data "github-mark.png;." --add-data "todos.png;." --add-data "logo_utf.png;." --add-data "icone_janela.ico;." --hidden-import "Pillow.ImageGrab" main.py
+    ```
+    
+    * `--onefile`: Gera um único arquivo `.exe`.
+    * `--windowed`: Remove o console de terminal ao executar o app.
+    * `--icon`: Define o ícone do arquivo `.exe`.
+    * `--add-data`: Empacota os arquivos de imagem e ícones necessários junto com o app.
+    * `--hidden-import`: Garante que a biblioteca `ImageGrab` (usada para salvar a imagem) seja incluída.
+
+4.  O executável final estará na pasta `dist/main.exe`.
 
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Python 3**: Linguagem principal.
 * **Tkinter**: Para a construção da interface gráfica (GUI).
 * **Pillow (PIL)**: Para manipulação e exibição de imagens (ícones, logos) e para salvar o gráfico.
 * **PyInstaller**: Utilizado para empacotar o projeto em um único executável (`.exe`).
 
-## 👨‍💻 Autor
+##  Autor
 
 * **Vinicius Wandembruck - ALUNO DE BSI NA UTFPR** - [GitHub @KureishiDev](https://github.com/KureishiDev)
 
-## ⚖️ Licença
+##  Licença
 
 Este projeto é distribuído sob a Licença MIT. Veja o arquivo `LICENSE
