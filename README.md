@@ -70,7 +70,7 @@ Se preferir rodar o projeto localmente:
 ##  Formato do Arquivo de Entrada (`.txt`)
 
 O software carrega os cenários de um arquivo de texto simples. A primeira linha define o algoritmo e o quantum (não utilizado neste projeto, mas presente para futuros algoritmos como Round Robin). As linhas seguintes definem cada tarefa.
-
+Há exemplos aqui no repositório de alguns arquivos txt ja preenchidos.
 **Formato:**
 
 ALGORITMO;QUANTUM id;cor;ingresso;duracao;prioridade
