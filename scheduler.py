@@ -23,7 +23,7 @@ class PriorityScheduler:
             return None
         
         #acha quem tem o menor numero de prioridade da lista
-        highest_priority_task = min(candidates, key=lambda task: task.priority)
+        highest_priority_task = max(candidates, key=lambda task: task.priority)
         return highest_priority_task
 
 
