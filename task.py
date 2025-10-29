@@ -1,4 +1,5 @@
-class Task: #classe pseudo tcb
+class Task: 
+    #classe pseudo tcb
 
     def __init__(
         self, task_id, color, arrival_time, duration, priority_str, events_list=None
