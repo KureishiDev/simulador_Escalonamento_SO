@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Python-3.10%2B-yellow" alt="Python" valign="middle">
   <img src="https://img.shields.io/badge/Licença-MIT-lightgrey" alt="Licença" valign="middle">
   
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/UTFPR_logo.svg/2560px-UTFPR_logo.svg.png](https://play.google.com/store/apps/details?id=coted.UTFPRMobileAlunos" alt="Logo UTFPR" height="25" valign="middle">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/UTFPR_logo.svg/2560px-UTFPR_logo.svg.png" alt="Logo UTFPR" height="25" valign="middle">
 </p>
 
 Um simulador gráfico interativo de algoritmos de escalonamento de CPU, desenvolvido como projeto para a disciplina de Sistemas Operacionais.
