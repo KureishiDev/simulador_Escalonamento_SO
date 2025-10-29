@@ -49,7 +49,7 @@ Se preferir rodar o projeto localmente:
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/KureishiDev/simulador_Escalonamento_SO.git](https://github.com/KureishiDev/simulador_Escalonamento_SO.git)
+    git clone https://github.com/KureishiDev/simulador_Escalonamento_SO.git
     cd simulador_Escalonamento_SO
     ```
 2.  (Opcional, mas recomendado) Crie um ambiente virtual:
