@@ -11,7 +11,7 @@
 Um simulador gráfico interativo de algoritmos de escalonamento de CPU, desenvolvido como projeto para a disciplina de Sistemas Operacionais.
 Este software é a implementação prática do **Projeto A** da disciplina de Sistemas Operacionais (2025/2), ministrada pelo Prof. Dr. Marco Aurélio Wehrmeister na **Universidade Tecnológica Federal do Paraná (UTFPR)**.
 
-![Screenshot do Simulador em Ação](screenshot.png)
+![Screenshot do Simulador em Ação](screenshot1.png)
 
 ---
 
