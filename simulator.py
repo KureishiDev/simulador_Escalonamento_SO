@@ -88,7 +88,7 @@ class Simulator:
                     self.ready_queue.remove(self.running_task) #tira da fila, vai p pseudo cpu
 
                 self.running_task.status = "EXECUTANDO"
-                #se for a primeira vez rodando, flagga -1
+                #se for a primeira vez rodando
                 if self.running_task.start_time == -1:
                     self.running_task.start_time = self.global_tick
                 print(
