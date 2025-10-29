@@ -120,6 +120,8 @@ Este projeto utiliza o **PyInstaller** para ser empacotado em um único arquivo 
 
 ##  Referências
 [PDF de Referência: Sistemas Operacionais (Maziero)](https://wiki.inf.ufpr.br/maziero/lib/exe/fetch.php?media=socm:socm-06.pdf)
+
+
 Moodle de S.O doProf. Dr. Marco Aurélio Wehrmeister.
 
 ##  Licença
