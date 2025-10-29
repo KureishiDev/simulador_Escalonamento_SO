@@ -1,8 +1,12 @@
 #  Simulador Interativo de Escalonamento de Processos
 
-![Versão](https://img.shields.io/badge/versão-1.5-blue)
-![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
-![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey)
+<p>
+  <img src="https://img.shields.io/badge/versão-1.5-blue" alt="Versão" valign="middle">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-yellow" alt="Python" valign="middle">
+  <img src="https://img.shields.io/badge/Licença-MIT-lightgrey" alt="Licença" valign="middle">
+  
+  <img src="logo_utf.png" alt="Logo UTFPR" height="25" valign="middle">
+</p>
 
 Um simulador gráfico interativo de algoritmos de escalonamento de CPU, desenvolvido como projeto para a disciplina de Sistemas Operacionais.
 Este software é a implementação prática do **Projeto A** da disciplina de Sistemas Operacionais (2025/2), ministrada pelo Prof. Dr. Marco Aurélio Wehrmeister na **Universidade Tecnológica Federal do Paraná (UTFPR)**.
