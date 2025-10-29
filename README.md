@@ -1,6 +1,6 @@
 #  Simulador Interativo de Escalonamento de Processos
 
-![Versão](https://img.shields.io/badge/versão-1.0-blue)
+![Versão](https://img.shields.io/badge/versão-1.5-blue)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
 ![Licença](https://img.shields.io/badge/Licença-MIT-lightgrey)
 
