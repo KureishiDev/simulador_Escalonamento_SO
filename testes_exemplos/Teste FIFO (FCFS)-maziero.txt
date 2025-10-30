@@ -1,0 +1,6 @@
+FIFO;1
+T1;blue;0;5;2
+T2;orange;0;2;3
+T3;green;1;4;1
+T4;red;3;1;4
+T5;purple;5;2;5

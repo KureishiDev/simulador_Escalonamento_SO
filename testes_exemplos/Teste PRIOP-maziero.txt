@@ -1,0 +1,6 @@
+PRIOP;1
+T1;blue;0;5;4
+T2;orange;0;2;3
+T3;green;1;4;5
+T4;red;3;1;2
+T5;purple;5;2;1
